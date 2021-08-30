@@ -9,23 +9,21 @@
         }
         .output{
            
-
             border-style: solid ; border-color: red;
             background-color: aqua;
             
             height:fit-content;
             width: fit-content;
-            display: block
-            
-            
-            
-            ;
-            
-            
-
+            display: none;
         }
         img{
             float: left;
+        }
+        p {
+            display: inline-block;
+        }
+        .output>h3 {
+            display: inline-block;
         }
        
  
@@ -55,14 +53,14 @@
 
 
 
-<div class ="output">
+<div id="out" class ="output">
    <h1> <center>WEBCOM INSTITUTE</center></h1>
    
     
     <img src="./avatars/av1.png" height="100px" width="100px" >
- <h3> Name: <p id= "demo2">  </p></h3> 
-<h3>Age:<p id="demo3"> </p> </h3>
-<h3 >Mail:<p id="demo4"></p> </h3>
+ <h3> Name: </h3><p id= "demo2"></p><br>
+<h3>Age: </h3><p id="demo3"> </p><br>
+<h3 >Mail: </h3><p id="demo4"></p><br>
   <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone:<p id="demo5"></p></h3>
   <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Address:<p id="demo6"></p></h3>
 
