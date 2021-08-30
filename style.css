@@ -1,0 +1,19 @@
+li {
+  display: inline;
+  margin: 5;
+  background-color: yellow;
+}
+
+ul {
+  background-color: yellow;
+}
+
+a {
+  text-decoration: none;
+  font-size: 40px;
+}
+
+a:hover {
+  background-color: blue;
+  color: white;
+}
